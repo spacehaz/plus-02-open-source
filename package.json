@@ -1,0 +1,22 @@
+{
+  "name": "plus-02-open-source",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/spacehaz/plus-02-open-source.git",
+  "author": "spacehaz <spacehaz@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack serve --open --mode development",
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.4.0",
+    "webpack": "5.58.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.3.1"
+  },
+  "dependencies": {
+    "moment": "^2.29.1",
+    "validate.js": "^0.13.1"
+  }
+}
